@@ -1,0 +1,146 @@
+/* rgb(84, 9, 69)
+ */
+html {
+  background-color: #d2d6d1; }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Helvetica;
+  background: url("http://cdn.shopify.com/s/files/1/0185/7414/products/nyc_double_lores_1024x1024.jpg?v=1371160880");
+  background-attachment: fixed; }
+
+header {
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-image: url("http://championpavingandsealing.com/wp-content/uploads/Asphalt-Texture.jpg");
+  padding-bottom: 40px;
+  box-shadow: 0 12px 6px -6px black; }
+  header h1 {
+    font-weight: 300;
+    font-size: 65px;
+    color: lightgrey;
+    letter-spacing: 13px;
+    padding-top: 40px;
+    padding-left: 170px;
+    padding-right: 170px;
+    margin: 0; }
+  header #head {
+    color: white;
+    letter-spacing: 33px;
+    font-size: 80px;
+    font-weight: 100; }
+  header h2 {
+    font-weight: 100;
+    font-size: 28px;
+    padding-top: 45px;
+    margin: 0; }
+  header #bord {
+    border-top: 1px solid white; }
+  header #bord1 {
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    padding-left: 30px; }
+  header #bord2 {
+    border-top: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white; }
+  header #bord3 {
+    border-bottom: 1px solid white; }
+  header a {
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: 1px solid white; }
+  header a:hover {
+    color: black;
+    background-color: white; }
+
+.container {
+  position: relative;
+  width: 100%;
+  min-height: 390px; }
+  .container ul {
+    text-align: center;
+    padding: 10px;
+    margin-top: 55px;
+    margin-bottom: 45px; }
+  .container li {
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    margin-left: 10px;
+    margin-right: 10px; }
+  .container img {
+    border-top: 10px solid white;
+    border-left: 10px solid white;
+    border-right: 10px solid white;
+    border-bottom: 58px solid white; }
+  .container a {
+    position: relative; }
+  .container span {
+    position: absolute;
+    bottom: 98%;
+    right: 28%;
+    font-weight: 100;
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: grey;
+    padding: 0;
+    margin: 0; }
+
+.imgHover {
+  opacity: 0.5; }
+
+.imgHover:hover {
+  opacity: 1;
+  transition: all 0.5s ease; }
+
+.thumbMain, .albumOne, .albumTwo, .albumThree {
+  display: none;
+  margin-top: 55px;
+  margin-bottom: 45px; }
+  .thumbMain img, .albumOne img, .albumTwo img, .albumThree img {
+    width: 280px; }
+
+.albumOne img, .albumTwo img, .albumThree img {
+  border: 10px solid white;
+  cursor: -webkit-zoom-in;
+  width: 280px; }
+
+.currentPage {
+  display: block;
+  margin-top: 55px;
+  margin-bottom: 45px; }
+
+footer {
+  display: block;
+  text-align: center;
+  width: 100%;
+  background-image: url("http://championpavingandsealing.com/wp-content/uploads/Asphalt-Texture.jpg");
+  box-shadow: 0 -8px 6px -6px black; }
+  footer h2 {
+    font-weight: 100;
+    font-size: 18px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: 0; }
+  footer a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 10px; }
+  footer a:hover {
+    color: black;
+    background-color: white; }
+
+.checked img {
+  width: 600px;
+  cursor: -webkit-zoom-out; }
+
+.container .hide {
+  display: none; }
