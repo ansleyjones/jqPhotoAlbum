@@ -11,49 +11,10 @@ $(document).ready(function() {
 
   });
 
-  $(".albumOne").on("click", ".pic", function(event) {
+  $(".images a").click(function(event) {
     event.preventDefault();
-    $(this).closest("li").siblings().addClass("hide");
-    $(this).addClass("checked").removeClass('pic');
-    $(this).closest("li").siblings().find("a").removeClass('pic');
+    $(this).closest('li').siblings().toggleClass('hide');
+    $(this).toggleClass('checked');
   });
 
-  $(".albumOne").on("click", ".checked", function(event) {
-    event.preventDefault();
-    $(this).addClass('pic');
-    $(this).closest('li').siblings().find('a').addClass('pic');
-    $(this).removeClass("checked");
-    $(this).closest('li').siblings().removeClass("hide");
-  });
-
-  $(".albumTwo").on("click", ".pic", function(event) {
-    event.preventDefault();
-    $(this).closest("li").siblings().addClass("hide");
-    $(this).addClass("checked").removeClass('pic');
-    $(this).closest("li").siblings().find("a").removeClass('pic');
-  });
-
-  $(".albumTwo").on("click", ".checked", function(event) {
-    event.preventDefault();
-    $(this).addClass('pic');
-    $(this).closest('li').siblings().find('a').addClass('pic');
-    $(this).removeClass("checked");
-    $(this).closest('li').siblings().removeClass("hide");
-  });
-
-
-  $(".albumThree").on("click", ".pic", function(event) {
-    event.preventDefault();
-    $(this).closest("li").siblings().addClass("hide");
-    $(this).addClass("checked").removeClass('pic');
-    $(this).closest("li").siblings().find("a").removeClass('pic');
-  });
-
-  $(".albumThree").on("click", ".checked", function(event) {
-    event.preventDefault();
-    $(this).addClass('pic');
-    $(this).closest('li').siblings().find('a').addClass('pic');
-    $(this).removeClass("checked");
-    $(this).closest('li').siblings().removeClass("hide");
-  });
 });
